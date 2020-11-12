@@ -1,0 +1,22 @@
+
+  $primary-color: #6362a7;
+  $secounday-color: #8f8ec7;
+  $button-color: #ffce22;
+  $starship-color:#6af1d0;
+  $pack-color:#f5b944;
+  $leaf-color:#c6f16a;
+  $third-color:#333333;
+  h2,h6{
+    color:white;
+  }
+.body{
+  height:100%;
+}
+
+@import "css/header";
+@import "css/anchor-menu";
+@import "css/pack-content";
+@import "css/footer";
+@import "css/carouselle";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "css/button";

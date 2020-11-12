@@ -1,0 +1,39 @@
+.pack-content{
+    @media (max-width: 769px)  { 
+      .texting{
+        padding-top:3rem;
+        padding-bottom:3rem;
+        p{
+          text-align:center;
+          margin:0 auto;
+          font-size:16px;
+        }
+       .btn-primary{
+         margin:2rem auto;
+       }
+      }
+      .title{
+       h2{
+        margin:0 auto;
+       } 
+      }
+    }
+    @media (min-width:770px){
+      .texting{
+        padding-top:7rem;
+        padding-bottom:7rem;
+      }
+    }
+    .title{
+      background-color:$secounday-color;
+      padding-top:10px;
+      padding-bottom:10px;
+    }
+    .texting{
+      p{
+        width:75%;
+        font-size:18px;
+        font-family:Arial, sans-serif;
+      }
+    }
+  }
